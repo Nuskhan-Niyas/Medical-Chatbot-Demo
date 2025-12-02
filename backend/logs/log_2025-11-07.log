@@ -1,0 +1,594 @@
+2025-11-07 15:18:35,419 - INFO - creating the vectorstore....
+2025-11-07 15:18:35,419 - INFO - Loading files from data/
+2025-11-07 15:18:43,706 - INFO - Successfully fetched 759 documents
+2025-11-07 15:18:43,706 - INFO - Splitting 759 documents into chunks
+2025-11-07 15:18:43,810 - INFO - Generated 7080 text chunks
+2025-11-07 15:18:43,811 - INFO - Generating your new vectorstore
+2025-11-07 15:18:43,811 - INFO - Intializing our Huggingface embedding model
+2025-11-07 15:18:59,513 - INFO - Use pytorch device_name: mps
+2025-11-07 15:18:59,515 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 15:19:02,805 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 15:19:22,211 - INFO - Loading faiss.
+2025-11-07 15:19:23,081 - INFO - Successfully loaded faiss.
+2025-11-07 15:19:23,181 - INFO - Saving vectorstoree
+2025-11-07 15:19:23,197 - INFO - Vectostore saved sucesfulyy...
+2025-11-07 15:19:23,198 - INFO - Vectorstore created sucesfully....
+2025-11-07 16:55:13,214 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 16:55:13,215 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 16:56:48,624 - INFO - 127.0.0.1 - - [07/Nov/2025 16:56:48] "GET / HTTP/1.1" 200 -
+2025-11-07 16:56:49,065 - INFO - 127.0.0.1 - - [07/Nov/2025 16:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 16:56:49,067 - INFO - 127.0.0.1 - - [07/Nov/2025 16:56:49] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-11-07 16:56:49,146 - INFO - 127.0.0.1 - - [07/Nov/2025 16:56:49] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-11-07 16:56:53,385 - INFO - Loading vector store for context
+2025-11-07 16:56:53,386 - INFO - Intializing our Huggingface embedding model
+2025-11-07 16:56:54,762 - INFO - Use pytorch device_name: mps
+2025-11-07 16:56:54,762 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 16:56:57,420 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 16:56:57,420 - INFO - Loading existing vectorstore...
+2025-11-07 16:56:57,422 - INFO - Loading faiss.
+2025-11-07 16:56:57,444 - INFO - Successfully loaded faiss.
+2025-11-07 16:56:57,466 - INFO - Loading LLM from Huggingface Hub...
+2025-11-07 16:56:57,606 - ERROR - Failed to load an LLM | Error: 1 validation error for HuggingFaceHub
+  Value error, Got invalid task None, currently only dict_keys(['translation', 'summarization', 'conversational', 'text-generation', 'text2text-generation']) are supported [type=value_error, input_value={'repo_id': 'mistralai/Mi...acehub_api_token': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 16:56:57,607 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 39
+2025-11-07 16:56:57,610 - INFO - 127.0.0.1 - - [07/Nov/2025 16:56:57] "POST / HTTP/1.1" 200 -
+2025-11-07 17:03:07,744 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:03:08,919 - INFO - Use pytorch device_name: mps
+2025-11-07 17:03:08,919 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:03:11,069 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:03:11,070 - INFO - Loading existing vectorstore...
+2025-11-07 17:03:11,071 - INFO - Loading faiss.
+2025-11-07 17:03:11,091 - INFO - Successfully loaded faiss.
+2025-11-07 17:11:07,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 17:11:07,155 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 17:11:17,127 - INFO - Loading vector store for context
+2025-11-07 17:11:17,127 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:11:18,378 - INFO - Use pytorch device_name: mps
+2025-11-07 17:11:18,378 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:11:20,281 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:11:20,281 - INFO - Loading existing vectorstore...
+2025-11-07 17:11:20,282 - INFO - Loading faiss.
+2025-11-07 17:11:20,304 - INFO - Successfully loaded faiss.
+2025-11-07 17:11:20,328 - ERROR - Failed to make a QA chain | Error: name 'load_llm' is not defined | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 36
+2025-11-07 17:11:20,332 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:20] "POST / HTTP/1.1" 200 -
+2025-11-07 17:11:23,849 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:23] "GET / HTTP/1.1" 200 -
+2025-11-07 17:11:28,472 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:28] "GET / HTTP/1.1" 200 -
+2025-11-07 17:11:35,317 - INFO - Loading vector store for context
+2025-11-07 17:11:35,317 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:11:35,321 - INFO - Use pytorch device_name: mps
+2025-11-07 17:11:35,321 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:11:36,937 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:11:36,937 - INFO - Loading existing vectorstore...
+2025-11-07 17:11:37,071 - ERROR - Failed to make a QA chain | Error: name 'load_llm' is not defined | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 36
+2025-11-07 17:11:37,073 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:37] "POST / HTTP/1.1" 200 -
+2025-11-07 17:11:44,136 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:44] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-11-07 17:11:44,141 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:44] "GET / HTTP/1.1" 200 -
+2025-11-07 17:11:55,464 - INFO - Loading vector store for context
+2025-11-07 17:11:55,465 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:11:55,467 - INFO - Use pytorch device_name: mps
+2025-11-07 17:11:55,467 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:11:57,814 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:11:57,814 - INFO - Loading existing vectorstore...
+2025-11-07 17:11:57,833 - ERROR - Failed to make a QA chain | Error: name 'load_llm' is not defined | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 36
+2025-11-07 17:11:57,834 - INFO - 127.0.0.1 - - [07/Nov/2025 17:11:57] "POST / HTTP/1.1" 200 -
+2025-11-07 17:15:39,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 17:15:39,756 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 17:15:45,924 - INFO - Loading vector store for context
+2025-11-07 17:15:45,924 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:15:47,165 - INFO - Use pytorch device_name: mps
+2025-11-07 17:15:47,165 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:15:49,664 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:15:49,664 - INFO - Loading existing vectorstore...
+2025-11-07 17:15:49,665 - INFO - Loading faiss.
+2025-11-07 17:15:49,684 - INFO - Successfully loaded faiss.
+2025-11-07 17:15:49,705 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:15:49,705 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 43
+2025-11-07 17:15:49,709 - INFO - 127.0.0.1 - - [07/Nov/2025 17:15:49] "POST / HTTP/1.1" 200 -
+2025-11-07 17:15:58,506 - INFO - Loading vector store for context
+2025-11-07 17:15:58,506 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:15:58,510 - INFO - Use pytorch device_name: mps
+2025-11-07 17:15:58,510 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:15:59,591 - INFO - 127.0.0.1 - - [07/Nov/2025 17:15:59] "GET / HTTP/1.1" 200 -
+2025-11-07 17:16:00,453 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:16:00,454 - INFO - Loading existing vectorstore...
+2025-11-07 17:16:00,591 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:16:00,591 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 43
+2025-11-07 17:16:00,593 - INFO - 127.0.0.1 - - [07/Nov/2025 17:16:00] "POST / HTTP/1.1" 200 -
+2025-11-07 17:16:05,916 - INFO - 127.0.0.1 - - [07/Nov/2025 17:16:05] "GET / HTTP/1.1" 200 -
+2025-11-07 17:16:13,174 - INFO - Loading vector store for context
+2025-11-07 17:16:13,175 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:16:13,178 - INFO - Use pytorch device_name: mps
+2025-11-07 17:16:13,178 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:16:14,749 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:16:14,749 - INFO - Loading existing vectorstore...
+2025-11-07 17:16:14,767 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:16:14,767 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 43
+2025-11-07 17:16:14,768 - INFO - 127.0.0.1 - - [07/Nov/2025 17:16:14] "POST / HTTP/1.1" 200 -
+2025-11-07 17:17:20,417 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:17:21,634 - INFO - Use pytorch device_name: mps
+2025-11-07 17:17:21,634 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:17:23,353 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:17:23,353 - INFO - Loading existing vectorstore...
+2025-11-07 17:17:23,357 - INFO - Loading faiss.
+2025-11-07 17:17:23,380 - INFO - Successfully loaded faiss.
+2025-11-07 17:39:19,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 17:39:19,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 17:39:31,990 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-11-07 17:39:31,992 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-11-07 17:39:31,993 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 17:39:35,542 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:35] "GET / HTTP/1.1" 200 -
+2025-11-07 17:39:36,466 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:36] "GET / HTTP/1.1" 200 -
+2025-11-07 17:39:43,189 - INFO - Loading vector store for context
+2025-11-07 17:39:43,190 - INFO - Intializing our Huggingface embedding model
+2025-11-07 17:39:44,454 - INFO - Use pytorch device_name: mps
+2025-11-07 17:39:44,454 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:39:46,174 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 17:39:46,175 - INFO - Loading existing vectorstore...
+2025-11-07 17:39:46,178 - INFO - Loading faiss.
+2025-11-07 17:39:46,201 - INFO - Successfully loaded faiss.
+2025-11-07 17:39:46,224 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:39:46,224 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 43
+2025-11-07 17:39:46,226 - INFO - 127.0.0.1 - - [07/Nov/2025 17:39:46] "POST / HTTP/1.1" 200 -
+2025-11-07 17:50:26,074 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:50:51,597 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 13
+2025-11-07 17:52:12,423 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 11
+2025-11-07 17:57:06,962 - ERROR - Failed to load LLM | Error: HF_TOKEN not set in environment | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 11
+2025-11-07 18:42:11,529 - INFO - Loading local Mistral model...
+2025-11-07 18:42:11,529 - ERROR - Failed to load local Mistral model | Error: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/Users/nuzkhan/Downloads/medical chatbot/app/mistral_models/7B-Instruct-v0.3'. Use `repo_type` argument if needed. | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 18
+2025-11-07 18:43:34,685 - INFO - Loading local Mistral model from /Users/nuzkhan/mistral_models/7B-Instruct-v0.3...
+2025-11-07 18:43:34,686 - ERROR - Failed to load local Mistral LLM | Error: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/Users/nuzkhan/mistral_models/7B-Instruct-v0.3'. Use `repo_type` argument if needed. | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 16
+2025-11-07 19:43:26,886 - ERROR - Failed to load local Gemma model | Error: Local model path does not exist: /Users/nuzkhan/gemma_models/gemma-3-1b-it | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 19
+2025-11-07 19:43:44,435 - ERROR - Failed to load local Gemma model | Error: Local model path does not exist: /Users/nuzkhan/gemma_models/gemma-3-1b-it | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 19
+2025-11-07 19:45:07,961 - ERROR - Failed to load local Gemma model | Error: Local model path does not exist: /Users/nuzkhan/gemma_models/gemma-3-1b-it | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/llm.py | Line: 19
+2025-11-07 20:15:07,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:15:07,425 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:15:18,242 - INFO - 127.0.0.1 - - [07/Nov/2025 20:15:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-11-07 20:15:18,244 - INFO - 127.0.0.1 - - [07/Nov/2025 20:15:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-11-07 20:15:18,245 - INFO - 127.0.0.1 - - [07/Nov/2025 20:15:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 20:15:25,646 - INFO - 127.0.0.1 - - [07/Nov/2025 20:15:25] "GET / HTTP/1.1" 200 -
+2025-11-07 20:15:30,500 - INFO - Loading vector store for context
+2025-11-07 20:15:30,500 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:15:30,624 - INFO - Use pytorch device_name: mps
+2025-11-07 20:15:30,624 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:15:32,536 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:15:32,536 - INFO - Loading existing vectorstore...
+2025-11-07 20:15:32,537 - INFO - Loading faiss.
+2025-11-07 20:15:32,613 - INFO - Successfully loaded faiss.
+2025-11-07 20:15:38,509 - ERROR - Failed to make a QA chain | Error: "Gemma3LLM" object has no field "tokenizer" | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 62
+2025-11-07 20:15:38,602 - INFO - 127.0.0.1 - - [07/Nov/2025 20:15:38] "POST / HTTP/1.1" 200 -
+2025-11-07 20:16:10,908 - INFO - Loading vector store for context
+2025-11-07 20:16:10,908 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:16:10,914 - INFO - Use pytorch device_name: mps
+2025-11-07 20:16:10,914 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:16:12,445 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:16:12,445 - INFO - Loading existing vectorstore...
+2025-11-07 20:16:17,032 - ERROR - Failed to make a QA chain | Error: "Gemma3LLM" object has no field "tokenizer" | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 62
+2025-11-07 20:16:17,306 - INFO - 127.0.0.1 - - [07/Nov/2025 20:16:17] "POST / HTTP/1.1" 200 -
+2025-11-07 20:25:03,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:25:03,223 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:25:06,639 - INFO - 127.0.0.1 - - [07/Nov/2025 20:25:06] "GET / HTTP/1.1" 200 -
+2025-11-07 20:25:11,127 - INFO - Loading vector store for context...
+2025-11-07 20:25:11,127 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:25:11,302 - INFO - Use pytorch device_name: mps
+2025-11-07 20:25:11,302 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:25:13,256 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:25:13,257 - INFO - Loading existing vectorstore...
+2025-11-07 20:25:13,259 - INFO - Loading faiss.
+2025-11-07 20:25:13,353 - INFO - Successfully loaded faiss.
+2025-11-07 20:25:20,411 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13db176d0>, input_type=create_qa_chain.<locals>.GemmaWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13db176d0>, input_type=create_qa_chain.<locals>.GemmaWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:25:20,495 - INFO - 127.0.0.1 - - [07/Nov/2025 20:25:20] "POST / HTTP/1.1" 200 -
+2025-11-07 20:31:35,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:31:35,540 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:31:41,707 - INFO - 127.0.0.1 - - [07/Nov/2025 20:31:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-11-07 20:31:41,709 - INFO - 127.0.0.1 - - [07/Nov/2025 20:31:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-11-07 20:31:41,710 - INFO - 127.0.0.1 - - [07/Nov/2025 20:31:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 20:31:42,439 - INFO - 127.0.0.1 - - [07/Nov/2025 20:31:42] "GET / HTTP/1.1" 200 -
+2025-11-07 20:31:47,007 - INFO - Loading vector store for context...
+2025-11-07 20:31:47,007 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:31:47,179 - INFO - Use pytorch device_name: mps
+2025-11-07 20:31:47,179 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:31:49,243 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:31:49,243 - INFO - Loading existing vectorstore...
+2025-11-07 20:31:49,244 - INFO - Loading faiss.
+2025-11-07 20:31:49,270 - INFO - Successfully loaded faiss.
+2025-11-07 20:31:55,253 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x133a87ac0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x133a87ac0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:31:55,336 - INFO - 127.0.0.1 - - [07/Nov/2025 20:31:55] "POST / HTTP/1.1" 200 -
+2025-11-07 20:34:56,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:34:56,833 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:35:03,370 - INFO - Loading vector store for context...
+2025-11-07 20:35:03,370 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:35:03,495 - INFO - Use pytorch device_name: mps
+2025-11-07 20:35:03,495 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:35:05,227 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:35:05,228 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:35:05,230 - INFO - Loading faiss.
+2025-11-07 20:35:05,254 - INFO - Successfully loaded faiss.
+2025-11-07 20:35:11,999 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13a5d8340>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13a5d8340>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:35:12,108 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:12] "POST / HTTP/1.1" 200 -
+2025-11-07 20:35:17,361 - INFO - Loading vector store for context...
+2025-11-07 20:35:17,362 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:35:17,366 - INFO - Use pytorch device_name: mps
+2025-11-07 20:35:17,367 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:35:19,229 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:35:19,230 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:35:23,701 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13c561400>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13c561400>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:35:24,048 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:24] "POST / HTTP/1.1" 200 -
+2025-11-07 20:35:29,073 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:29] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-11-07 20:35:29,074 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:29] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-11-07 20:35:29,075 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 20:35:36,937 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:36] "GET / HTTP/1.1" 200 -
+2025-11-07 20:35:37,243 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 20:35:41,466 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-07 20:35:54,011 - INFO - 127.0.0.1 - - [07/Nov/2025 20:35:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 20:36:02,735 - INFO - Loading vector store for context...
+2025-11-07 20:36:02,736 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:36:02,745 - INFO - Use pytorch device_name: mps
+2025-11-07 20:36:02,745 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:36:04,830 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:36:04,830 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:36:10,251 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13c25b8b0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13c25b8b0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:36:10,421 - INFO - 127.0.0.1 - - [07/Nov/2025 20:36:10] "POST / HTTP/1.1" 200 -
+2025-11-07 20:36:10,697 - INFO - 127.0.0.1 - - [07/Nov/2025 20:36:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-07 20:41:32,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:41:32,937 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:41:37,761 - INFO - Loading vector store for context...
+2025-11-07 20:41:37,761 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:41:37,914 - INFO - Use pytorch device_name: mps
+2025-11-07 20:41:37,915 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:41:39,651 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:41:39,652 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:41:39,657 - INFO - Loading faiss.
+2025-11-07 20:41:39,698 - INFO - Successfully loaded faiss.
+2025-11-07 20:41:45,827 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x1335eba90>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x1335eba90>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:41:45,924 - INFO - 127.0.0.1 - - [07/Nov/2025 20:41:45] "POST / HTTP/1.1" 200 -
+2025-11-07 20:41:54,898 - INFO - 127.0.0.1 - - [07/Nov/2025 20:41:54] "GET / HTTP/1.1" 200 -
+2025-11-07 20:41:59,730 - INFO - Loading vector store for context...
+2025-11-07 20:41:59,730 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:41:59,738 - INFO - Use pytorch device_name: mps
+2025-11-07 20:41:59,739 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:42:01,500 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:42:01,500 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:42:06,194 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x10d573fd0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x10d573fd0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:42:06,445 - INFO - 127.0.0.1 - - [07/Nov/2025 20:42:06] "POST / HTTP/1.1" 200 -
+2025-11-07 20:46:52,496 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:46:52,496 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:46:55,215 - INFO - 127.0.0.1 - - [07/Nov/2025 20:46:55] "GET / HTTP/1.1" 200 -
+2025-11-07 20:47:00,188 - INFO - Loading vector store for context...
+2025-11-07 20:47:00,189 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:47:00,339 - INFO - Use pytorch device_name: mps
+2025-11-07 20:47:00,339 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:47:02,020 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:47:02,020 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:47:02,022 - INFO - Loading faiss.
+2025-11-07 20:47:02,044 - INFO - Successfully loaded faiss.
+2025-11-07 20:47:08,264 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x105a24490>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x105a24490>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:47:08,347 - INFO - 127.0.0.1 - - [07/Nov/2025 20:47:08] "POST / HTTP/1.1" 200 -
+2025-11-07 20:47:27,863 - INFO - Loading vector store for context...
+2025-11-07 20:47:27,864 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:47:27,872 - INFO - Use pytorch device_name: mps
+2025-11-07 20:47:27,872 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:47:29,495 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:47:29,495 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:47:34,830 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13b9c3af0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13b9c3af0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:47:34,964 - INFO - 127.0.0.1 - - [07/Nov/2025 20:47:34] "POST / HTTP/1.1" 200 -
+2025-11-07 20:47:52,169 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:47:52,169 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:47:54,791 - INFO - Loading vector store for context...
+2025-11-07 20:47:54,791 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:47:54,908 - INFO - Use pytorch device_name: mps
+2025-11-07 20:47:54,908 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:47:56,470 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:47:56,470 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:47:56,471 - INFO - Loading faiss.
+2025-11-07 20:47:56,486 - INFO - Successfully loaded faiss.
+2025-11-07 20:48:01,663 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13ce280d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13ce280d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:48:01,910 - INFO - 127.0.0.1 - - [07/Nov/2025 20:48:01] "POST / HTTP/1.1" 200 -
+2025-11-07 20:48:24,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 20:48:24,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 20:48:32,434 - INFO - 127.0.0.1 - - [07/Nov/2025 20:48:32] "GET / HTTP/1.1" 200 -
+2025-11-07 20:48:36,942 - INFO - Loading vector store for context...
+2025-11-07 20:48:36,942 - INFO - Intializing our Huggingface embedding model
+2025-11-07 20:48:37,051 - INFO - Use pytorch device_name: mps
+2025-11-07 20:48:37,051 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 20:48:38,657 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 20:48:38,657 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 20:48:38,658 - INFO - Loading faiss.
+2025-11-07 20:48:38,670 - INFO - Successfully loaded faiss.
+2025-11-07 20:48:43,505 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x100a98490>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x100a98490>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 20:48:43,708 - INFO - 127.0.0.1 - - [07/Nov/2025 20:48:43] "POST / HTTP/1.1" 200 -
+2025-11-07 22:34:38,908 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 22:34:38,908 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 22:36:59,720 - INFO - 127.0.0.1 - - [07/Nov/2025 22:36:59] "GET / HTTP/1.1" 200 -
+2025-11-07 22:36:59,759 - INFO - 127.0.0.1 - - [07/Nov/2025 22:36:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 22:37:04,731 - INFO - Loading vector store for context...
+2025-11-07 22:37:04,732 - INFO - Intializing our Huggingface embedding model
+2025-11-07 22:37:04,927 - INFO - Use pytorch device_name: mps
+2025-11-07 22:37:04,927 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 22:37:07,662 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 22:37:07,662 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 22:37:07,666 - INFO - Loading faiss.
+2025-11-07 22:37:07,790 - INFO - Successfully loaded faiss.
+2025-11-07 22:37:14,104 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13063b4c0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.retriever...r object at 0x13063b4c0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 22:37:14,198 - INFO - 127.0.0.1 - - [07/Nov/2025 22:37:14] "POST / HTTP/1.1" 200 -
+2025-11-07 22:40:19,911 - INFO - Loading vector store for context...
+2025-11-07 22:40:19,911 - INFO - Intializing our Huggingface embedding model
+2025-11-07 22:40:20,043 - INFO - Use pytorch device_name: mps
+2025-11-07 22:40:20,043 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 22:40:21,797 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 22:40:21,798 - INFO - Loading existing vectorstore from vectorstore/db_faiss
+2025-11-07 22:40:21,800 - INFO - Loading faiss.
+2025-11-07 22:40:21,826 - INFO - Successfully loaded faiss.
+2025-11-07 22:40:28,159 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<__main__.GemmaLLMWrapper object at 0x134cc09d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<__main__.GemmaLLMWrapper object at 0x134cc09d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 69
+2025-11-07 22:51:58,526 - INFO - creating the vectorstore....
+2025-11-07 22:51:58,526 - INFO - Loading files from data/
+2025-11-07 22:52:06,968 - INFO - Successfully fetched 759 documents
+2025-11-07 22:52:06,968 - INFO - Splitting 759 documents into chunks
+2025-11-07 22:52:07,076 - INFO - Generated 7080 text chunks
+2025-11-07 22:52:07,077 - INFO - Initializing embedding model for vectorstore...
+2025-11-07 22:52:07,077 - INFO - Intializing our Huggingface embedding model
+2025-11-07 22:52:08,390 - INFO - Use pytorch device_name: mps
+2025-11-07 22:52:08,390 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 22:52:10,120 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 22:52:10,120 - INFO - Creating new FAISS vectorstore from 7080 chunks
+2025-11-07 22:52:28,565 - INFO - Loading faiss.
+2025-11-07 22:52:28,608 - INFO - Successfully loaded faiss.
+2025-11-07 22:52:28,809 - INFO - ✅ Vectorstore saved successfully at vectorstore/db_faiss
+2025-11-07 22:52:28,811 - INFO - Vectorstore created sucesfully....
+2025-11-07 23:01:59,580 - INFO - 🔍 Attempting to load FAISS vectorstore...
+2025-11-07 23:01:59,580 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:02:00,915 - INFO - Use pytorch device_name: mps
+2025-11-07 23:02:00,915 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:02:02,787 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:02:02,787 - INFO - 📦 Loading FAISS vectorstore from vectorstore/db_faiss ...
+2025-11-07 23:02:02,788 - INFO - Loading faiss.
+2025-11-07 23:02:02,808 - INFO - Successfully loaded faiss.
+2025-11-07 23:02:02,830 - INFO - ✅ Vectorstore loaded successfully!
+2025-11-07 23:15:53,098 - INFO - Loading vector store for context...
+2025-11-07 23:15:53,098 - INFO - 🔍 Attempting to load FAISS vectorstore...
+2025-11-07 23:15:53,098 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:15:53,221 - INFO - Use pytorch device_name: mps
+2025-11-07 23:15:53,221 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:15:55,025 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:15:55,025 - INFO - 📦 Loading FAISS vectorstore from vectorstore/db_faiss ...
+2025-11-07 23:15:55,028 - INFO - Loading faiss.
+2025-11-07 23:15:55,055 - INFO - Successfully loaded faiss.
+2025-11-07 23:15:55,084 - INFO - ✅ Vectorstore loaded successfully!
+2025-11-07 23:16:01,361 - ERROR - Failed to create QA chain | Error: __pydantic_fields_set__ | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 87
+2025-11-07 23:18:44,673 - INFO - 🔍 Step 1: Loading vector store...
+2025-11-07 23:18:44,673 - INFO - 🔍 Attempting to load FAISS vectorstore...
+2025-11-07 23:18:44,673 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:18:44,772 - INFO - Use pytorch device_name: mps
+2025-11-07 23:18:44,772 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:18:46,453 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:18:46,453 - INFO - 📦 Loading FAISS vectorstore from vectorstore/db_faiss ...
+2025-11-07 23:18:46,456 - INFO - Loading faiss.
+2025-11-07 23:18:46,480 - INFO - Successfully loaded faiss.
+2025-11-07 23:18:46,502 - INFO - ✅ Vectorstore loaded successfully!
+2025-11-07 23:18:46,503 - INFO - 🔍 Step 2: Loading Gemma model...
+2025-11-07 23:18:51,961 - INFO - 🔍 Step 3: Wrapping Gemma model for LangChain...
+2025-11-07 23:18:51,962 - ERROR - ❌ Detailed QA chain creation error:
+Traceback (most recent call last):
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 87, in create_qa_chain
+    llm = GemmaLLMWrapper(tokenizer, llm_model)
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 43, in __init__
+    self.tokenizer = tokenizer
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1033, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 96, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1023, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+AttributeError: __pydantic_fields_set__
+2025-11-07 23:20:29,551 - INFO - 🔍 Step 1: Loading vector store...
+2025-11-07 23:20:29,551 - INFO - 🔍 Attempting to load FAISS vectorstore...
+2025-11-07 23:20:29,551 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:20:29,674 - INFO - Use pytorch device_name: mps
+2025-11-07 23:20:29,674 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:20:31,843 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:20:31,844 - INFO - 📦 Loading FAISS vectorstore from vectorstore/db_faiss ...
+2025-11-07 23:20:31,845 - INFO - Loading faiss.
+2025-11-07 23:20:31,867 - INFO - Successfully loaded faiss.
+2025-11-07 23:20:31,892 - INFO - ✅ Vectorstore loaded successfully!
+2025-11-07 23:20:31,892 - INFO - 🔍 Step 2: Loading Gemma model...
+2025-11-07 23:20:37,530 - INFO - 🔍 Step 3: Wrapping Gemma model for LangChain...
+2025-11-07 23:20:37,540 - ERROR - ❌ Detailed QA chain creation error:
+Traceback (most recent call last):
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 79, in create_qa_chain
+    llm = GemmaLLMWrapper(tokenizer, llm_model)
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 37, in __init__
+    self.tokenizer = tokenizer
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1032, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1079, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "GemmaLLMWrapper" object has no field "tokenizer"
+2025-11-07 23:43:22,097 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-07 23:43:22,097 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 23:43:40,267 - INFO - 127.0.0.1 - - [07/Nov/2025 23:43:40] "GET / HTTP/1.1" 200 -
+2025-11-07 23:43:40,458 - INFO - 127.0.0.1 - - [07/Nov/2025 23:43:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 23:43:45,397 - INFO - 🔍 Step 1: Loading vector store...
+2025-11-07 23:43:45,397 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:43:45,536 - INFO - Use pytorch device_name: mps
+2025-11-07 23:43:45,536 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:43:47,282 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:43:47,282 - WARNING - Vectorstore not found at /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-07 23:43:47,282 - WARNING - Vector store not found. Creating a new one...
+2025-11-07 23:43:47,282 - INFO - Loading files from data/
+2025-11-07 23:43:56,028 - INFO - Successfully fetched 759 documents
+2025-11-07 23:43:56,029 - INFO - Splitting 759 documents into chunks
+2025-11-07 23:43:56,135 - INFO - Generated 7080 text chunks
+2025-11-07 23:43:56,135 - INFO - Initializing embedding model for vectorstore...
+2025-11-07 23:43:56,135 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:43:56,138 - INFO - Use pytorch device_name: mps
+2025-11-07 23:43:56,138 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:43:57,722 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:43:57,722 - INFO - Creating new FAISS vectorstore from 7080 chunks
+2025-11-07 23:44:16,353 - INFO - Loading faiss.
+2025-11-07 23:44:16,394 - INFO - Successfully loaded faiss.
+2025-11-07 23:44:16,647 - INFO - ✅ Vectorstore saved successfully at /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-07 23:44:16,647 - INFO - 🔍 Step 2: Loading Gemma model...
+2025-11-07 23:44:24,300 - INFO - 🔍 Step 3: Wrapping Gemma model for LangChain...
+2025-11-07 23:44:24,331 - ERROR - ❌ Detailed QA chain creation error:
+Traceback (most recent call last):
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 79, in create_qa_chain
+    llm = GemmaLLMWrapper(tokenizer, llm_model)
+  File "/Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py", line 37, in __init__
+    self.tokenizer = tokenizer
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1032, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+  File "/Users/nuzkhan/Downloads/medical chatbot/medchatbot/lib/python3.9/site-packages/pydantic/main.py", line 1079, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "GemmaLLMWrapper" object has no field "tokenizer"
+2025-11-07 23:44:24,960 - INFO - 127.0.0.1 - - [07/Nov/2025 23:44:24] "POST / HTTP/1.1" 200 -
+2025-11-07 23:50:30,392 - INFO - creating the vectorstore....
+2025-11-07 23:50:30,392 - ERROR - Failed to load PDF | Error: Data path doesn't exist | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/pdf_loader.py | Line: 14
+2025-11-07 23:50:30,392 - ERROR - Failed to generate chunks | Error: No documents were found | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/pdf_loader.py | Line: 33
+2025-11-07 23:50:30,392 - ERROR - Failed to create/save vectorstore | Error: No text chunks provided to create vectorstore | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/vector_store.py | Line: 47
+2025-11-07 23:50:30,392 - INFO - Vectorstore created sucesfully....
+
+
+
+
+
+
+2025-11-07 23:53:58,494 - INFO - creating the vectorstore....
+2025-11-07 23:53:58,494 - ERROR - Failed to load PDF | Error: Data path doesn't exist | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/pdf_loader.py | Line: 14
+2025-11-07 23:53:58,494 - ERROR - Failed to generate chunks | Error: No documents were found | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/pdf_loader.py | Line: 33
+2025-11-07 23:53:58,494 - ERROR - Failed to create/save vectorstore | Error: No text chunks provided to create vectorstore | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/vector_store.py | Line: 47
+2025-11-07 23:53:58,494 - INFO - Vectorstore created sucesfully....
+2025-11-07 23:56:47,457 - INFO - creating the vectorstore....
+2025-11-07 23:56:47,457 - INFO - Loading files from /Users/nuzkhan/Downloads/medical chatbot/data/
+2025-11-07 23:56:55,992 - INFO - Successfully fetched 759 documents
+2025-11-07 23:56:55,993 - INFO - Splitting 759 documents into chunks
+2025-11-07 23:56:56,101 - INFO - Generated 7080 text chunks
+2025-11-07 23:56:56,101 - INFO - Initializing embedding model for vectorstore...
+2025-11-07 23:56:56,101 - INFO - Intializing our Huggingface embedding model
+2025-11-07 23:56:57,500 - INFO - Use pytorch device_name: mps
+2025-11-07 23:56:57,500 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:56:59,450 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-07 23:56:59,450 - INFO - Creating new FAISS vectorstore from 7080 chunks
+2025-11-07 23:57:16,496 - INFO - Loading faiss.
+2025-11-07 23:57:16,545 - INFO - Successfully loaded faiss.
+2025-11-07 23:57:16,772 - INFO - ✅ Vectorstore saved successfully at /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-07 23:57:16,774 - INFO - Vectorstore created sucesfully....

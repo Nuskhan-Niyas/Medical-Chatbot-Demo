@@ -1,0 +1,50 @@
+2025-11-10 01:50:04,380 - INFO - Intializing our Huggingface embedding model
+2025-11-10 01:50:04,487 - INFO - Use pytorch device_name: mps
+2025-11-10 01:50:04,487 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-10 01:50:06,479 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-10 01:50:06,480 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medical chatbot v2/vectorstore/db_faiss
+2025-11-10 01:50:06,483 - INFO - Loading faiss.
+2025-11-10 01:50:06,976 - INFO - Successfully loaded faiss.
+2025-11-10 01:50:07,106 - INFO - ✅ Vector store loaded successfully
+2025-11-10 01:50:07,115 - INFO - 🔄 Creating QA Chain...
+2025-11-10 01:50:07,115 - INFO - Intializing our Huggingface embedding model
+2025-11-10 01:50:07,117 - INFO - Use pytorch device_name: mps
+2025-11-10 01:50:07,117 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-10 01:50:08,518 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-10 01:50:08,519 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medical chatbot v2/vectorstore/db_faiss
+2025-11-10 01:50:08,540 - INFO - ✅ Vector store loaded successfully
+2025-11-10 01:50:08,540 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-10 01:50:17,600 - INFO - ✅ QA chain created successfully
+2025-11-10 01:50:18,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-10 01:50:18,077 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-10 01:50:29,605 - INFO - 127.0.0.1 - - [10/Nov/2025 01:50:29] "GET / HTTP/1.1" 200 -
+2025-11-10 01:50:31,521 - INFO - 127.0.0.1 - - [10/Nov/2025 01:50:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-10 01:50:56,249 - INFO - 127.0.0.1 - - [10/Nov/2025 01:50:56] "POST / HTTP/1.1" 200 -
+2025-11-10 12:00:28,874 - INFO - Intializing our Huggingface embedding model
+2025-11-10 12:00:29,016 - INFO - Use pytorch device_name: mps
+2025-11-10 12:00:29,016 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-10 12:00:30,731 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-10 12:00:30,731 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medical chatbot v2/vectorstore/db_faiss
+2025-11-10 12:00:30,734 - INFO - Loading faiss.
+2025-11-10 12:00:30,779 - INFO - Successfully loaded faiss.
+2025-11-10 12:00:30,862 - INFO - ✅ Vector store loaded successfully
+2025-11-10 12:00:30,906 - INFO - 🔄 Creating QA Chain...
+2025-11-10 12:00:30,906 - INFO - Intializing our Huggingface embedding model
+2025-11-10 12:00:30,908 - INFO - Use pytorch device_name: mps
+2025-11-10 12:00:30,908 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-10 12:00:32,249 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-10 12:00:32,250 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medical chatbot v2/vectorstore/db_faiss
+2025-11-10 12:00:32,272 - INFO - ✅ Vector store loaded successfully
+2025-11-10 12:00:32,272 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-10 12:00:39,405 - INFO - ✅ QA chain created successfully
+2025-11-10 12:00:39,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-10 12:00:39,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-10 12:01:03,820 - INFO - 127.0.0.1 - - [10/Nov/2025 12:01:03] "GET / HTTP/1.1" 200 -
+2025-11-10 12:01:04,995 - INFO - 127.0.0.1 - - [10/Nov/2025 12:01:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-10 12:01:19,430 - INFO - 127.0.0.1 - - [10/Nov/2025 12:01:19] "POST / HTTP/1.1" 200 -

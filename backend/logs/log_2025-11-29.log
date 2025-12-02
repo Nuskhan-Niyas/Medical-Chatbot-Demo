@@ -1,0 +1,27 @@
+2025-11-29 18:03:22,100 - INFO - Intializing our Huggingface embedding model
+2025-11-29 18:03:22,202 - INFO - Use pytorch device_name: mps
+2025-11-29 18:03:22,202 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 18:03:26,686 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-29 18:03:26,686 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-29 18:03:26,689 - INFO - Loading faiss.
+2025-11-29 18:03:27,350 - INFO - Successfully loaded faiss.
+2025-11-29 18:03:27,377 - INFO - ✅ Vector store loaded successfully
+2025-11-29 18:03:33,749 - INFO - Intializing our Huggingface embedding model
+2025-11-29 18:03:33,757 - INFO - Use pytorch device_name: mps
+2025-11-29 18:03:33,757 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 18:03:36,735 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-29 18:03:36,736 - INFO - Intializing our Huggingface embedding model
+2025-11-29 18:03:36,737 - INFO - Use pytorch device_name: mps
+2025-11-29 18:03:36,737 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 18:03:39,057 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-29 18:03:39,057 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-29 18:03:39,601 - INFO - ✅ Vector store loaded successfully
+2025-11-29 18:03:39,601 - INFO - 🔄 Creating QA Chain...
+2025-11-29 18:03:39,601 - INFO - Intializing our Huggingface embedding model
+2025-11-29 18:03:39,601 - INFO - Use pytorch device_name: mps
+2025-11-29 18:03:39,601 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 18:03:42,574 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-29 18:03:42,574 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-29 18:03:42,595 - INFO - ✅ Vector store loaded successfully
+2025-11-29 18:03:42,595 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-29 18:03:49,373 - INFO - ✅ QA chain created successfully

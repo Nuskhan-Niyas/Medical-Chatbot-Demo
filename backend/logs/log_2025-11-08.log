@@ -1,0 +1,220 @@
+2025-11-08 00:01:17,361 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:01:17,361 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:01:17,507 - INFO - Use pytorch device_name: mps
+2025-11-08 00:01:17,507 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:01:19,267 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:01:19,267 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:01:19,270 - INFO - Loading faiss.
+2025-11-08 00:01:19,298 - INFO - Successfully loaded faiss.
+2025-11-08 00:01:19,325 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:01:19,325 - ERROR - ❌ QA chain creation failed | Error: 'FAISS' object has no attribute 'index_to_docstore_ids' | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 74
+2025-11-08 00:05:42,989 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:05:42,990 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:05:43,120 - INFO - Use pytorch device_name: mps
+2025-11-08 00:05:43,120 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:05:45,174 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:05:45,175 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:05:45,178 - INFO - Loading faiss.
+2025-11-08 00:05:45,324 - INFO - Successfully loaded faiss.
+2025-11-08 00:05:45,590 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:05:45,596 - ERROR - ❌ QA chain creation failed | Error: 'FAISS' object has no attribute 'index_to_docstore_ids' | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 74
+2025-11-08 00:07:06,802 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:07:06,802 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:07:06,887 - INFO - Use pytorch device_name: mps
+2025-11-08 00:07:06,887 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:07:08,621 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:07:08,622 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:07:08,624 - INFO - Loading faiss.
+2025-11-08 00:07:08,654 - INFO - Successfully loaded faiss.
+2025-11-08 00:07:08,681 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:07:08,681 - ERROR - Failed to create QA chain | Error: object of type 'InMemoryDocstore' has no len() | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 68
+2025-11-08 00:09:47,637 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:09:47,637 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:09:47,728 - INFO - Use pytorch device_name: mps
+2025-11-08 00:09:47,728 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:09:49,497 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:09:49,498 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:09:49,502 - INFO - Loading faiss.
+2025-11-08 00:09:49,515 - INFO - Successfully loaded faiss.
+2025-11-08 00:09:49,542 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:09:49,542 - ERROR - Failed to create QA chain | Error: object of type 'InMemoryDocstore' has no len() | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 68
+2025-11-08 00:18:28,493 - INFO - ✅ Gemma 3 LLM loaded on CPU successfully
+2025-11-08 00:18:28,494 - INFO - Initializing HuggingFace embedding model for RAG
+2025-11-08 00:18:29,016 - INFO - Use pytorch device_name: mps
+2025-11-08 00:18:29,016 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:18:30,883 - INFO - ✅ HuggingFace embedding model loaded successfully
+2025-11-08 00:19:22,988 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:19:22,988 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:19:23,061 - INFO - Use pytorch device_name: mps
+2025-11-08 00:19:23,061 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:19:24,501 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:19:24,501 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:19:24,504 - INFO - Loading faiss.
+2025-11-08 00:19:24,526 - INFO - Successfully loaded faiss.
+2025-11-08 00:19:24,548 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:19:24,548 - ERROR - Failed to create QA chain | Error: object of type 'InMemoryDocstore' has no len() | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 68
+2025-11-08 00:54:28,508 - INFO - 🔄 Creating QA Chain...
+2025-11-08 00:54:28,509 - INFO - Intializing our Huggingface embedding model
+2025-11-08 00:54:28,630 - INFO - Use pytorch device_name: mps
+2025-11-08 00:54:28,630 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 00:54:30,506 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 00:54:30,506 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 00:54:30,509 - INFO - Loading faiss.
+2025-11-08 00:54:30,538 - INFO - Successfully loaded faiss.
+2025-11-08 00:54:30,566 - INFO - ✅ Vector store loaded successfully
+2025-11-08 00:54:30,566 - ERROR - Failed to create QA chain | Error: object of type 'InMemoryDocstore' has no len() | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 68
+2025-11-08 01:10:25,006 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:10:25,159 - INFO - Use pytorch device_name: mps
+2025-11-08 01:10:25,159 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:10:26,932 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:10:26,933 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:10:26,937 - INFO - Loading faiss.
+2025-11-08 01:10:26,966 - INFO - Successfully loaded faiss.
+2025-11-08 01:10:26,995 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:10:27,016 - INFO - 🔄 Creating QA Chain...
+2025-11-08 01:10:27,016 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:10:27,019 - INFO - Use pytorch device_name: mps
+2025-11-08 01:10:27,019 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:10:28,467 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:10:28,467 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:10:28,585 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:10:28,585 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 01:10:35,384 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x1349fc1f0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x1349fc1f0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 58
+2025-11-08 01:11:47,638 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:11:47,729 - INFO - Use pytorch device_name: mps
+2025-11-08 01:11:47,729 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:11:49,520 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:11:49,521 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:11:49,522 - INFO - Loading faiss.
+2025-11-08 01:11:49,534 - INFO - Successfully loaded faiss.
+2025-11-08 01:11:49,610 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:11:49,639 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-08 01:11:49,639 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 01:12:06,751 - INFO - 127.0.0.1 - - [08/Nov/2025 01:12:06] "GET / HTTP/1.1" 200 -
+2025-11-08 01:12:06,805 - INFO - 127.0.0.1 - - [08/Nov/2025 01:12:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-08 01:12:12,959 - INFO - 🔄 Creating QA Chain...
+2025-11-08 01:12:12,959 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:12:12,964 - INFO - Use pytorch device_name: mps
+2025-11-08 01:12:12,964 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:12:14,577 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:12:14,577 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:12:14,596 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:12:14,596 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 01:12:22,213 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x13e692f70>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x13e692f70>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 58
+2025-11-08 01:12:22,411 - INFO - 127.0.0.1 - - [08/Nov/2025 01:12:22] "POST / HTTP/1.1" 200 -
+2025-11-08 01:12:41,506 - INFO - 127.0.0.1 - - [08/Nov/2025 01:12:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-08 01:16:15,770 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:16:15,885 - INFO - Use pytorch device_name: mps
+2025-11-08 01:16:15,886 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:16:17,580 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:16:17,580 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:16:17,581 - INFO - Loading faiss.
+2025-11-08 01:16:17,602 - INFO - Successfully loaded faiss.
+2025-11-08 01:16:17,679 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:16:45,137 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:16:45,230 - INFO - Use pytorch device_name: mps
+2025-11-08 01:16:45,230 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:16:47,035 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:16:47,035 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:16:47,036 - INFO - Loading faiss.
+2025-11-08 01:16:47,047 - INFO - Successfully loaded faiss.
+2025-11-08 01:16:47,135 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:16:47,141 - INFO - 🔄 Creating QA Chain...
+2025-11-08 01:16:47,141 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:16:47,143 - INFO - Use pytorch device_name: mps
+2025-11-08 01:16:47,143 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:16:48,562 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:16:48,563 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:16:48,589 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:16:48,589 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 01:16:55,470 - ERROR - Failed to create QA chain | Error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x13eef76d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<app.components.llm.Gemma...r object at 0x13eef76d0>, input_type=GemmaLLMWrapper]
+    For further information visit https://errors.pydantic.dev/2.12/v/is_instance_of | File: /Users/nuzkhan/Downloads/medical chatbot/app/components/retriever.py | Line: 58
+2025-11-08 01:19:41,236 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:19:41,361 - INFO - Use pytorch device_name: mps
+2025-11-08 01:19:41,361 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:19:43,089 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:19:43,089 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:19:43,090 - INFO - Loading faiss.
+2025-11-08 01:19:43,103 - INFO - Successfully loaded faiss.
+2025-11-08 01:19:43,125 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:19:43,133 - INFO - 🔄 Creating QA Chain...
+2025-11-08 01:19:43,133 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:19:43,135 - INFO - Use pytorch device_name: mps
+2025-11-08 01:19:43,135 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:19:44,477 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:19:44,478 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:19:44,578 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:19:44,579 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 01:19:53,694 - INFO - ✅ QA chain created successfully
+2025-11-08 01:21:14,131 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:21:14,248 - INFO - Use pytorch device_name: mps
+2025-11-08 01:21:14,248 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:21:16,021 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:21:16,021 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:21:16,022 - INFO - Loading faiss.
+2025-11-08 01:21:16,036 - INFO - Successfully loaded faiss.
+2025-11-08 01:21:16,115 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:21:16,125 - INFO - 🔄 Creating QA Chain...
+2025-11-08 01:21:16,125 - INFO - Intializing our Huggingface embedding model
+2025-11-08 01:21:16,127 - INFO - Use pytorch device_name: mps
+2025-11-08 01:21:16,127 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 01:21:17,507 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 01:21:17,507 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 01:21:17,531 - INFO - ✅ Vector store loaded successfully
+2025-11-08 01:21:17,531 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 01:21:25,645 - INFO - ✅ QA chain created successfully
+2025-11-08 01:21:25,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-08 01:21:25,923 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 01:21:42,971 - INFO - 127.0.0.1 - - [08/Nov/2025 01:21:42] "GET / HTTP/1.1" 200 -
+2025-11-08 01:21:43,023 - INFO - 127.0.0.1 - - [08/Nov/2025 01:21:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-08 01:22:05,193 - INFO - 127.0.0.1 - - [08/Nov/2025 01:22:05] "POST / HTTP/1.1" 200 -
+2025-11-08 01:34:19,244 - INFO - 127.0.0.1 - - [08/Nov/2025 01:34:19] "POST / HTTP/1.1" 200 -
+2025-11-08 01:36:41,121 - INFO - 127.0.0.1 - - [08/Nov/2025 01:36:41] "POST / HTTP/1.1" 200 -
+2025-11-08 01:38:54,662 - INFO - 127.0.0.1 - - [08/Nov/2025 01:38:54] "POST / HTTP/1.1" 200 -
+2025-11-08 02:20:37,725 - INFO - Intializing our Huggingface embedding model
+2025-11-08 02:20:37,872 - INFO - Use pytorch device_name: mps
+2025-11-08 02:20:37,872 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 02:20:39,622 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 02:20:39,622 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 02:20:39,623 - INFO - Loading faiss.
+2025-11-08 02:20:39,644 - INFO - Successfully loaded faiss.
+2025-11-08 02:20:39,726 - INFO - ✅ Vector store loaded successfully
+2025-11-08 02:20:39,734 - INFO - 🔄 Creating QA Chain...
+2025-11-08 02:20:39,734 - INFO - Intializing our Huggingface embedding model
+2025-11-08 02:20:39,736 - INFO - Use pytorch device_name: mps
+2025-11-08 02:20:39,736 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 02:20:41,300 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-08 02:20:41,300 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/medical chatbot/vectorstore/db_faiss
+2025-11-08 02:20:41,324 - INFO - ✅ Vector store loaded successfully
+2025-11-08 02:20:41,324 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-08 02:20:47,130 - INFO - ✅ QA chain created successfully
+2025-11-08 02:20:47,211 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.243:5001
+2025-11-08 02:20:47,211 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 02:21:16,929 - INFO - 127.0.0.1 - - [08/Nov/2025 02:21:16] "GET / HTTP/1.1" 200 -
+2025-11-08 02:21:36,062 - INFO - 127.0.0.1 - - [08/Nov/2025 02:21:36] "POST / HTTP/1.1" 200 -

@@ -1,0 +1,214 @@
+2025-11-14 10:50:48,540 - INFO - Intializing our Huggingface embedding model
+2025-11-14 10:50:48,676 - INFO - Use pytorch device_name: mps
+2025-11-14 10:50:48,676 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 10:50:50,327 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 10:50:50,328 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 10:50:50,329 - INFO - Loading faiss.
+2025-11-14 10:50:50,992 - INFO - Successfully loaded faiss.
+2025-11-14 10:50:51,089 - INFO - ✅ Vector store loaded successfully
+2025-11-14 10:58:11,871 - INFO - Intializing our Huggingface embedding model
+2025-11-14 10:58:11,945 - INFO - Use pytorch device_name: mps
+2025-11-14 10:58:11,945 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 10:58:13,593 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 10:58:13,593 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 10:58:13,594 - INFO - Loading faiss.
+2025-11-14 10:58:13,615 - INFO - Successfully loaded faiss.
+2025-11-14 10:58:13,698 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:00:55,147 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:00:55,211 - INFO - Use pytorch device_name: mps
+2025-11-14 11:00:55,211 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:00:56,932 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:00:56,932 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:00:56,936 - INFO - Loading faiss.
+2025-11-14 11:00:56,959 - INFO - Successfully loaded faiss.
+2025-11-14 11:00:57,067 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:01:11,237 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:01:11,296 - INFO - Use pytorch device_name: mps
+2025-11-14 11:01:11,296 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:01:12,786 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:01:12,786 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:01:12,788 - INFO - Loading faiss.
+2025-11-14 11:01:12,807 - INFO - Successfully loaded faiss.
+2025-11-14 11:01:12,892 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:01:15,701 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:01:15,763 - INFO - Use pytorch device_name: mps
+2025-11-14 11:01:15,763 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:01:17,523 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:01:17,524 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:01:17,525 - INFO - Loading faiss.
+2025-11-14 11:01:17,537 - INFO - Successfully loaded faiss.
+2025-11-14 11:01:17,625 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:01:53,341 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:01:53,402 - INFO - Use pytorch device_name: mps
+2025-11-14 11:01:53,402 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:01:55,248 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:01:55,248 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:01:55,250 - INFO - Loading faiss.
+2025-11-14 11:01:55,275 - INFO - Successfully loaded faiss.
+2025-11-14 11:01:55,377 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:02:02,326 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:02:02,371 - INFO - Use pytorch device_name: mps
+2025-11-14 11:02:02,371 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:02:04,136 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:10:45,291 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:10:45,367 - INFO - Use pytorch device_name: mps
+2025-11-14 11:10:45,367 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:10:47,143 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:10:47,143 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:10:47,145 - INFO - Loading faiss.
+2025-11-14 11:10:47,166 - INFO - Successfully loaded faiss.
+2025-11-14 11:10:47,254 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:10:53,472 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:10:53,504 - INFO - Use pytorch device_name: mps
+2025-11-14 11:10:53,504 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:10:55,431 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:10:55,431 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:10:55,434 - INFO - Use pytorch device_name: mps
+2025-11-14 11:10:55,434 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:10:57,088 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:10:57,089 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:10:57,140 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:10:57,140 - INFO - 🔄 Creating QA Chain...
+2025-11-14 11:10:57,140 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:10:57,141 - INFO - Use pytorch device_name: mps
+2025-11-14 11:10:57,141 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:10:58,573 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:10:58,573 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:10:58,594 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:10:58,594 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 11:11:05,371 - INFO - ✅ QA chain created successfully
+2025-11-14 11:16:58,919 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:16:59,008 - INFO - Use pytorch device_name: mps
+2025-11-14 11:16:59,008 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:00,625 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:00,625 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:00,626 - INFO - Loading faiss.
+2025-11-14 11:17:00,647 - INFO - Successfully loaded faiss.
+2025-11-14 11:17:00,754 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:05,846 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:05,849 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:05,849 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:07,724 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:07,725 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:07,726 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:07,726 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:09,249 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:09,249 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:09,301 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:09,302 - INFO - 🔄 Creating QA Chain...
+2025-11-14 11:17:09,302 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:09,304 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:09,304 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:10,810 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:10,810 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:10,831 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:10,831 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 11:17:17,466 - INFO - ✅ QA chain created successfully
+2025-11-14 11:17:21,745 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:21,848 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:21,848 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:23,781 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:23,781 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:23,783 - INFO - Loading faiss.
+2025-11-14 11:17:23,797 - INFO - Successfully loaded faiss.
+2025-11-14 11:17:23,888 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:28,341 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:28,348 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:28,348 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:30,367 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:30,368 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:30,370 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:30,370 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:31,781 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:31,781 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:31,826 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:31,826 - INFO - 🔄 Creating QA Chain...
+2025-11-14 11:17:31,826 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:17:31,828 - INFO - Use pytorch device_name: mps
+2025-11-14 11:17:31,828 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:17:33,222 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:17:33,222 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:17:33,245 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:17:33,245 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 11:17:40,627 - INFO - ✅ QA chain created successfully
+2025-11-14 11:27:49,584 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:27:49,677 - INFO - Use pytorch device_name: mps
+2025-11-14 11:27:49,677 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:27:51,342 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:27:51,342 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:27:51,343 - INFO - Loading faiss.
+2025-11-14 11:27:51,362 - INFO - Successfully loaded faiss.
+2025-11-14 11:27:51,445 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:27:56,614 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:27:56,719 - INFO - Use pytorch device_name: mps
+2025-11-14 11:27:56,719 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:27:58,664 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:27:58,668 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:27:58,670 - INFO - Use pytorch device_name: mps
+2025-11-14 11:27:58,670 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:28:00,199 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:28:00,199 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:28:00,254 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:28:00,254 - INFO - 🔄 Creating QA Chain...
+2025-11-14 11:28:00,254 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:28:00,256 - INFO - Use pytorch device_name: mps
+2025-11-14 11:28:00,256 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:28:01,831 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:28:01,831 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:28:01,854 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:28:01,854 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 11:28:08,078 - INFO - ✅ QA chain created successfully
+2025-11-14 11:36:14,078 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:36:14,162 - INFO - Use pytorch device_name: mps
+2025-11-14 11:36:14,162 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:36:15,866 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:36:15,867 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:36:15,870 - INFO - Loading faiss.
+2025-11-14 11:36:15,891 - INFO - Successfully loaded faiss.
+2025-11-14 11:36:15,993 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:36:20,998 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:36:21,006 - INFO - Use pytorch device_name: mps
+2025-11-14 11:36:21,006 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:36:22,679 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:36:22,680 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:36:22,682 - INFO - Use pytorch device_name: mps
+2025-11-14 11:36:22,682 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:36:24,096 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:36:24,096 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:36:24,123 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:36:24,123 - INFO - 🔄 Creating QA Chain...
+2025-11-14 11:36:24,123 - INFO - Intializing our Huggingface embedding model
+2025-11-14 11:36:24,125 - INFO - Use pytorch device_name: mps
+2025-11-14 11:36:24,125 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 11:36:25,485 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 11:36:25,485 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat8 with conv /backend/vectorstore/db_faiss
+2025-11-14 11:36:25,508 - INFO - ✅ Vector store loaded successfully
+2025-11-14 11:36:25,508 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 11:36:31,823 - INFO - ✅ QA chain created successfully
+2025-11-14 15:07:16,494 - INFO - Intializing our Huggingface embedding model
+2025-11-14 15:07:16,577 - INFO - Use pytorch device_name: mps
+2025-11-14 15:07:16,579 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 15:07:18,310 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 15:07:18,310 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-14 15:07:18,313 - INFO - Loading faiss.
+2025-11-14 15:07:18,939 - INFO - Successfully loaded faiss.
+2025-11-14 15:07:18,967 - INFO - ✅ Vector store loaded successfully
+2025-11-14 15:07:26,957 - INFO - Intializing our Huggingface embedding model
+2025-11-14 15:07:26,969 - INFO - Use pytorch device_name: mps
+2025-11-14 15:07:26,969 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 15:07:28,926 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 15:07:28,926 - INFO - Intializing our Huggingface embedding model
+2025-11-14 15:07:28,927 - INFO - Use pytorch device_name: mps
+2025-11-14 15:07:28,927 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 15:07:30,291 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 15:07:30,292 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-14 15:07:30,322 - INFO - ✅ Vector store loaded successfully
+2025-11-14 15:07:30,323 - INFO - 🔄 Creating QA Chain...
+2025-11-14 15:07:30,323 - INFO - Intializing our Huggingface embedding model
+2025-11-14 15:07:30,323 - INFO - Use pytorch device_name: mps
+2025-11-14 15:07:30,323 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 15:07:31,693 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-14 15:07:31,693 - INFO - Loading existing vectorstore from /Users/nuzkhan/Downloads/projects/medchat9 with conv /backend/vectorstore/db_faiss
+2025-11-14 15:07:32,055 - INFO - ✅ Vector store loaded successfully
+2025-11-14 15:07:32,055 - INFO - ✅ Vector store loaded/created successfully.
+2025-11-14 15:07:38,626 - INFO - ✅ QA chain created successfully
